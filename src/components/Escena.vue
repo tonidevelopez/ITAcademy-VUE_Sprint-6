@@ -1,3 +1,9 @@
 <template>
-    <p>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</p>
+    <ul>
+        <li v-for="frase in frases" :key="frase.id">{{ frase.txt }}</li>
+    </ul>
 </template>
+
+<script setup>
+defineProps(['frases'])
+</script>
