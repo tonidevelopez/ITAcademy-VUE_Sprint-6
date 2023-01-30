@@ -28,6 +28,7 @@ li {
     border-radius: 20px;
     padding: .5rem;
     margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 .resaltada {
