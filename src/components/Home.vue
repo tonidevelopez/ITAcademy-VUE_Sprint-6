@@ -33,7 +33,7 @@ export default {
             }
         },
         nextSentence() {
-            if (this.currentSentence !== 4) {
+            if (this.currentSentence !== frases.length) {
                 this.currentSentence++
                 this.currentImage++
             }
@@ -74,9 +74,9 @@ export default {
 }
 
 .image {
-    height: 100vh;
-    background-size: 100%;
+    height: 90vh;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: center center;
 }
 </style>
